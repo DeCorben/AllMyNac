@@ -1,1 +1,3 @@
 include ':app'
+include ':lagoon'
+project(':lagoon').projectDir = file('../ManateeBase/lagoon')

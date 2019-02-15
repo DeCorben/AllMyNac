@@ -3,5 +3,8 @@
 
     <string name="app_name">AllMyNac</string>
     <string name="hello_world">Hello world!</string>
-
+	<string name="lib_name">Waldo</string>
+	<string name="nacData">Data:</string>
+	<string name="nacName">Name:</string>
+	<string name="nacType">Type:</string>
 </resources>

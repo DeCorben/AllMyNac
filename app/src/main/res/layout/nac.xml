@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+	android:padding="15dp"
+	android:orientation="vertical"
+	>
+	<RelativeLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/nacName"
+			android:layout_alignParentLeft="true"
+			android:id="@+id/nacNameLabel"
+			/>
+		<TextView android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@id/nacNameLabel"
+			android:layout_alignParentRight="true"
+			android:id="@+id/nacNameBox"
+			/>
+	</RelativeLayout>
+	<RelativeLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+	>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/nacType"
+			android:layout_alignParentLeft="true"
+			android:id="@+id/nacTypeLabel"
+		/>
+		<TextView android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@id/nacTypeLabel"
+			android:layout_alignParentRight="true"
+			android:id="@+id/nacTypeBox"
+		/>
+	</RelativeLayout>
+	<RelativeLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+	>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/nacData"
+			android:layout_alignParentLeft="true"
+			android:id="@+id/nacDataLabel"
+		/>
+		<TextView android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@id/nacDataLabel"
+			android:layout_alignParentRight="true"
+			android:id="@+id/nacDataBox"
+		/>
+	</RelativeLayout>
+</LinearLayout>
